@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'com.production'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+jar {
+    baseName 'change-stream-sdc-plugin'
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
